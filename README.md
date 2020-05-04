@@ -3,7 +3,9 @@
 [![Build Status](https://travis-ci.org/typestack/class-validator.svg?branch=master)](https://travis-ci.org/typestack/class-validator)
 [![npm version](https://badge.fury.io/js/class-validator.svg)](https://badge.fury.io/js/class-validator)
 [![install size](https://packagephobia.now.sh/badge?p=class-validator)](https://packagephobia.now.sh/result?p=class-validator)
-[![Join the chat at https://gitter.im/typestack/class-validator](https://badges.gitter.im/typestack/class-validator.svg)](https://gitter.im/typestack/class-validator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) 
+[![Join the chat at https://gitter.im/typestack/class-validator](https://badges.gitter.im/typestack/class-validator.svg)](https://gitter.im/typestack/class-validator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+> ⚠️ This is a fork of the original `class-validator` package. It adds a validation property specifically to the `isOptional()` decorator called `nullable`, defaulting to `true` if not supplied (the original behaviour), and if set to `false` will not allow `null` values to be treated as empty.
 
 Allows use of decorator and non-decorator based validation.
 Internally uses [validator.js][1] to perform validation.
